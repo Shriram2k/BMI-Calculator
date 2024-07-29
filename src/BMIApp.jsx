@@ -26,6 +26,7 @@ const BMIApp = () => {
         setBgColor("#f0932b");
       } else {
         setBmiStatus("Obese");
+        setBgColor("#A8661E");
       }
       setErrorMsg("");
     } else {
